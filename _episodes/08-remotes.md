@@ -228,3 +228,12 @@ opposite of a `push`, so it's helpfully called a `pull`.
 >
 > Inspect the history to confirm that you have incorporated the change from online in your local files.
 {: .challenge}
+
+> ## Discussion: security
+> 
+> Slack poll: is your data "confidential", "in between", or "open"? Talk about strategies for each.
+> Consider how you might use your `.gitignore` file, and remotes like the CSIRO bitbucket. 
+> 
+{: .discussion}
+
+
