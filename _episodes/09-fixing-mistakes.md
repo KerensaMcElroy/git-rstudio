@@ -25,13 +25,16 @@ deleted or modified in the future.
 
 If changes are **uncommitted**, they are not safe, and when they are deleted, they are gone.
 
-The ability to reverse mistakes in Git is very sophisticated, however more advanced usage 
-will require calling Git from the command line. For our purposes, there are three sort of mistakes 
-we can look at resolving from within RStudio:
+For our purposes, there are three sort of mistakes we can look at resolving from within RStudio:
 
 1. Mistakes that **have** been committed
 2. Mistakes that have broken your Git repository
 3. Mistakes that **have not** yet been committed
+
+Fixing mistakes using Git within RStudio can feel a bit awkward and non-intuitive. This is because 
+Git was originally intended to be used from the command line (e.g., green writing on a black screen). 
+When using Git from the command line, there are many advanced and sophisticated ways of reversing 
+mistakes. However, we can do most of what we need to do within RStudio itself.
 
 ----
 
@@ -48,6 +51,16 @@ also access just the history of changes for that file from this window if you ar
 the exact version you want.
 
 Save, stage and commit this change and you have reverted the file to its older state.
+
+> ## RStudio versus GitHub history
+> Does this RStudio history window look familiar? You can see a very similar view on the online GitHub history. 
+> There are some important differences to understand:
+> 1. Rstudio history reflects the 'local' status, i.e. the changes you have made on your own machine. 
+> If you have recently pushed, this may be the same as your GitHub history, but it doesn't have to be.
+> 2. You can use the RStudio history to directly revert to a previous commit, **modifying** the state of 
+> your files. In contrast, the GitHub history simply displays the record of changes, you cannot interact with it. 
+{: .callout}
+
 
 > ## Challenge: revert a commit
 >
